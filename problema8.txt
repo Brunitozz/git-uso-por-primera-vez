@@ -1,0 +1,27 @@
+que es lo que necesito para realizar este codigo
+- una funcion que calcule la suma de los impares
+- una procedimiento para guardar los numeros que se van introduciendo 
+- y el obvio de main
+
+Entero funcion Suma_Cuadrados(entero: x)
+Subalgoritmo procedimiento Entrada_Numeros(entero: numeros[y])
+
+Algoritmo Calculo_Cuadrado
+var
+	Entero num //Entrada
+	Entero cuadrado
+Entero funcion Suma_Cuadrados(entero: x)
+VAR
+	entero impares[x], suma
+INICIO
+	suma <-- 0
+	Para i de 0 a i<x [inc + 1] hacer
+		impares[i] <-- 2*i+1
+        suma <-- suma + impares[i]
+        
+    FPara
+    devolver (suma)
+		
+
+
+	
