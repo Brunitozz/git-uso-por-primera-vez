@@ -27,8 +27,12 @@ INICIO
 	Escribir("la suma de los impares: \n")
 	
 	Para j de 0 a j<x [inc + 1] hacer
-		Escribir("+", impares[j])
-	FPara
+		"""Si (j-1==x) entonces
+			Escribir("")"""
+		Si()
+		FinSi
+		Escribir(impares[j], "+")
+	FinPara
     devolver (suma)
 		
 
