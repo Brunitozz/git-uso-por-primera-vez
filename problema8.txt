@@ -18,7 +18,7 @@ INICIO
 	Para i de 0 a i<x [inc + 1] hacer
 		impares[i] <-- 2*i+1
         suma <-- suma + impares[i]
-        
+        escribir("")
     FPara
     devolver (suma)
 		
